@@ -1,0 +1,86 @@
+{
+	"homeInfo": {
+	  "title": "首页",
+	  "href": "page/welcome-2.html?t=1"
+	},
+	"logoInfo": {
+	  "title": "工资管理系统",
+	  "image": "images/logo.png",
+	  "href": ""
+	},
+	"menuInfo":[
+		{
+			"title": "人员信息",
+			"icon": "fa fa-address-book",
+			"href": "",
+			"target": "_self",
+			"child": [
+				{
+				  "title": "人员总览",
+				  "href": "page/menu.html",
+				  "icon": "fa fa-window-maximize",
+				  "target": "_self"
+				},
+				{
+				  "title": "工资信息",
+				  "href": "",
+				  "icon": "fa fa-calendar",
+				  "target": "_self",
+				  "child": [
+				    {
+				      "title": "生产部门",
+				      "href": "page/menu1-2-1.html",
+				      "icon": "fa fa-list-alt",
+				      "target": "_self"
+				    },
+				    {
+				      "title": "包装部门",
+				      "href": "page/menu1-2-2.html",
+				      "icon": "fa fa-navicon",
+				      "target": "_self"
+				    },
+					{
+					  "title": "组装部门",
+					  "href": "page/menu1-2-3.html",
+					  "icon": "fa fa-navicon",
+					  "target": "_self"
+					}
+					
+				  ]
+				},
+				{
+				  "title": "信息修改",
+				  "href": "",
+				  "icon": "fa fa-calendar",
+				  "target": "_self",
+				  "child": [
+				    {
+				      "title": "增加员工",
+				      "href": "page/news/new_add.html",
+				      "icon": "fa fa-bars",
+				      "target": "_self"
+				    },
+				    {
+				      "title": "删除员工",
+				      "href": "page/news/new_clear.html",
+				      "icon": "fa fa-navicon",
+				      "target": "_self"
+				    },
+					{
+					  "title": "修改工资",
+					  "href": "page/news/new_xiugai.html",
+					  "icon": "fa fa-navicon",
+					  "target": "_self"
+					}
+				  ]
+				}
+				]
+		}
+		
+		
+		
+		
+		
+		
+	]
+}
